@@ -10,7 +10,7 @@ To get started, create the main data we'll be using, augmented_data.csv:
 
 1_data_creation: This notebook uses the statsbombpy API to grab all events for all seasons of StatsBomb's open data. Note that this is a large volume of data - about 5 GB, and running the notebook might therefore be difficult due to network speed and data transfer constraints on the API.
 
-2_data_augmentation: This notebook uses the StatsBomb's open data to calculate our main dataset. We have added a lot of features in this notebook which we have later used in the baseline models. The output of this is stored in the ./data directory.
+2_data_augmentation: This notebook uses the StatsBomb's open data to calculate our main dataset. We have added a lot of features in this notebook which we have later used in the baseline models. The output of this is stored in the ./data directory. The notebook with press and triangle does the same thing but represents defenders as Gaussian influences instead.
 
 Once you've set up, you can proceed to explore the data and establish baseline results:
 

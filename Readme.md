@@ -2,7 +2,7 @@
 
 ### Karnav Popat, Pranav Koka, Suyog Joshi
 
-This repository represents the entire pipeline needed to setup our replication of STatsBomb's xG models, including our own calculated features, data exploration, and hypothesis testing.
+This repository represents the entire pipeline needed to setup our replication of StatsBomb's xG models, including our own calculated features, data exploration, and hypothesis testing.
 
 Note that some of the datasets we've used are too large to upload, however, they can be created by running the first two notebooks.
 

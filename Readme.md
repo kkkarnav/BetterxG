@@ -33,15 +33,15 @@ Finally, if you're interested in some of the work we did to get to our final res
 
 ### Requirements: (all packages at the latest version unless specified otherwise)
 
-Python 3.10
-pandas
-numpy
-matplotlib.pyplot
-tqdm
-statsbombpy
-bokeh
-scikit-learn
-imbalanced-learn
-dtreeviz
-statsmodels
-stargazer
+- Python 3.10
+- pandas
+- numpy
+- matplotlib.pyplot
+- tqdm
+- statsbombpy
+- bokeh
+- scikit-learn
+- imbalanced-learn
+- dtreeviz
+- statsmodels
+- stargazer

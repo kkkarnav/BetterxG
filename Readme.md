@@ -24,8 +24,24 @@ Once we've established a baseline, we can use our calculated features and finetu
 
 **6_augmented_models**: This notebook contains our final results, as well as the techniques we applied and features we used to achieve them.
 
-Finally, if you're interested in some of the work we did to get to our final results, check out:
+Finally, if you're interested in some of the work we did to get to our final results, check out the below notebooks. Note that these can only be run when you have the full dataset, not just the demo dataset.
 
 **7_feature_selection**: Some of the feature selection methods we considered for data augmentation and used to test our model's out-of-distribution prediction.
 
 **8_leagues_testing**: We tested the performance of the model on out of distribution data by training and testing on separate leagues and comparing the performance when training and testing within the same league. We also established our hypothesis that different leagues have different playstyles.
+
+
+### Requirements: (all packages at the latest version unless specified otherwise)
+
+Python 3.10
+pandas
+numpy
+matplotlib.pyplot
+tqdm
+statsbombpy
+bokeh
+scikit-learn
+imbalanced-learn
+dtreeviz
+statsmodels
+stargazer

@@ -6,6 +6,9 @@ This repository represents the entire pipeline needed to setup our replication o
 
 Note that some of the datasets we've used are too large to upload, however, they can be created by running the first two notebooks.
 
+
+### Run Through:
+
 To get started, create the main data we'll be using, augmented_data.csv:
 
 **1_data_creation**: This notebook uses the statsbombpy API to grab all events for all seasons of StatsBomb's open data. Note that this is a large volume of data - about 5 GB, and running the notebook might therefore be difficult due to network speed and data transfer constraints on the API.
@@ -45,3 +48,8 @@ Finally, if you're interested in some of the work we did to get to our final res
 - dtreeviz
 - statsmodels
 - stargazer
+
+
+### Using the full dataset
+
+To replicate results on the entire StatsBomb open dataset instead of just the demo season, simply remove "[23:24]" from the third cell of 1_data_creation.ipynb. This will allow it to iteratively download every season in the dataset instead of just one. Note that this can take quite a long time (10-30 hours) and uses a lot of storage and memory space (10GB+)
